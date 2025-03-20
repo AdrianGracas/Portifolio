@@ -25,6 +25,11 @@ header nav li a {
     text-decoration: none;
 }
 
+header nav li a:hover {
+    color: #53f08d;
+    font-size: 21px;
+}
+
 header .inicial {
     display: flex;
     align-items: center;
