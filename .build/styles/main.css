@@ -20,14 +20,14 @@ header nav li {
 header nav li a {
   color: #8ff1b3;
   text-decoration: none;
-  font-family: "Caprasimo", serif;
+  font-family: "Charm", cursive;
 }
 header nav li a:hover {
   font-size: 20.5px;
-  color: #53f08d;
+  color: #338f54;
   cursor: pointer;
-  border-bottom: 0.05px outset black;
-  text-shadow: 0 0 20px #53f08d, 0 0 40px #53f08d;
+  border-bottom: 0.05px outset #000000;
+  text-shadow: 0 0 20px #338f54, 0 0 40px #338f54;
 }
 header .inicial {
   display: flex;
@@ -35,9 +35,34 @@ header .inicial {
   justify-content: space-between;
 }
 section {
+  margin: 200px 0;
+  height: 250px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-section .container {
-  align-items: flex-start;
+section h4 {
+  font-size: 25px;
+  margin: 0 310px;
+  font-family: "Lexend Mega", sans-serif;
+  color: gold;
+  text-transform: uppercase;
+}
+section h1 {
+  font-family: "Caprasimo", serif;
+  color: #474747;
+  align-items: center;
+  margin-left: 350px;
+}
+section h3 {
+  font-family: "Charm", cursive;
+  color: #338f54;
+  margin-left: 380px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+section p {
+  font-family: "Nunito", sans-serif;
+  margin: 0 100px;
+  font-size: 22px;
 }
