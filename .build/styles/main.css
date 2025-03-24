@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 .container {
   margin: 0 auto;
@@ -45,7 +44,7 @@ section h4 {
   font-size: 25px;
   margin: 0 310px;
   font-family: "Lexend Mega", sans-serif;
-  color: gold;
+  color: #a18900;
   text-transform: uppercase;
 }
 section h1 {
