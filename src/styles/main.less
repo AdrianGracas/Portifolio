@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #f7f7d8;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1100px;
@@ -28,10 +32,8 @@ header {
             }
             nav li a:hover {
                 font-size: 20.5px;
-                color: @corHoverSecudaria;
                 cursor: pointer;
-                border-bottom: 0.05px outset rgb(0, 0, 0);
-                text-shadow: 0 0 20px @corHoverSecudaria, 0 0 40px @corHoverSecudaria;
+                text-shadow: 0 0 10px @corHoverSecudaria, 0 0 20px @corHoverSecudaria;
             }
             .inicial {
                 display: flex;
@@ -47,6 +49,10 @@ section {
     justify-content: space-between;
     align-items: center;
 
+            img {
+                margin-left: 400px;
+            }
+
             h4 {
                 font-size: 25px;
                 margin: 0 310px;
@@ -57,7 +63,6 @@ section {
 
             h1 {
                 font-family: @FontTitulo;
-                color: @corPrincipal;
                 align-items: center;
                 margin-left: 350px;
             }
@@ -79,7 +84,6 @@ section {
         }
         
         #links {
-                
             .cards-container {
                 display: flex;
                 flex-wrap: wrap;
@@ -134,4 +138,13 @@ section {
                 background-color: @corHoverSecudaria;
             }
             
+        }
+
+        footer {
+            background-color: @corPrincipal;
+            padding: 20px 400px;
+            color: @corSecudaria;
+                p {
+                    margin-left: 400px;
+                }
         }
